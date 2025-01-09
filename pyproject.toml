@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "github-cicd-template"
-version = "1.0.8"
-description = "Github CICD Template Repository"
+name = "aws-ngfw-security-automations"
+version = "1.0.2"
+description = "AWS NGFW Security Automations Repository"
 authors = ["B <g46327wsj1.marbling129@passinbox.com>"]
 license = "Apache 2.0"
 readme = "README.md"
@@ -24,6 +24,7 @@ pytest = "^8.3.1"
 httpx = { version = ">=0.24.0", optional = true }
 pytest-cov = { version = "^6.0.0", optional = true }
 coverage = "^7.2.5"
+yamllint = "^1.35.0"
 
 [tool.poetry.extras]
 migrations = ["alembic"]
