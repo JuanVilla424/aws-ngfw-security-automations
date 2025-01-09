@@ -26,6 +26,20 @@ Welcome to the **AWS NGFW Security Automations** repository! This project provid
 - **Build Optimization:** Optimize build processes for faster deployment cycles.
 - **Notifications:** Receive updates and alerts on pipeline status via email or chat integrations.
 
+## 🖼️ Architecture Diagram
+
+![Diagram](source/image/architecture_diagram.png)
+
+## 📁 File Structure
+
+This project consists of microservices that facilitate the functional areas of the solution. These microservices are deployed to a serverless environment in AWS Lambda.
+
+```
+|-deployment/ [folder containing templates and build scripts]
+|-source/
+  |-image/                  [folder containing images of the solution such as architecture diagram]
+```
+
 ## 📫 Contact
 
 For any inquiries or support, please open an issue or contact [r6ty5r296it6tl4eg5m.constant214@passinbox.com](mailto:r6ty5r296it6tl4eg5m.constant214@passinbox.com).
