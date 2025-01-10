@@ -14,7 +14,7 @@ Welcome to the **AWS NGFW Security Automations** repository! This project provid
 
 - [Features](#-features)
 - [Architecture Diagram](#-architecture-diagram)
-- [File Structure](-file-structure)
+- [File Structure](#-file-structure)
 - [License](#-license)
 - [Contact](#-contact)
 
