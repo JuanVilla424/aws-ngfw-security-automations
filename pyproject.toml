@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aws-ngfw-security-automations"
-version = "1.0.2"
+version = "1.0.3"
 description = "AWS NGFW Security Automations Repository"
 authors = ["B <g46327wsj1.marbling129@passinbox.com>"]
 license = "Apache 2.0"
