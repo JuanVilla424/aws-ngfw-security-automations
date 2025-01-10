@@ -28,7 +28,7 @@ Welcome to the **AWS NGFW Security Automations** repository! This project provid
 
 ## 🖼️ Architecture Diagram
 
-![Diagram](source/image/architecture_diagram.png)
+![Diagram](/source/image/architecture_diagram.png)
 
 ## 📁 File Structure
 
