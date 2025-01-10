@@ -5,7 +5,7 @@
 **Before you begin, ensure you have met the following requirements**:
 
 - **GitHub Account:** You need a GitHub account to use GitHub Actions.
-- **Python 3.12+:** Ensure Python is installed on your local machine.
+- **Python 3.11+:** Ensure Python is installed on your local machine.
 - **Git:** Install [Git](https://git-scm.com/) to clone the repository.
 - **NVM:** (Optional) Node.js installation environment versions control
 - **Node.js 22.x+**: (Optional) (Required to Push) Used as lint orchestration manager in pre-commit and pre-push
@@ -15,12 +15,12 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/JuanVilla424/github-cicd-template.git
+   git clone https://github.com/JuanVilla424/aws-ngfw-security-automations.git
    ```
 
 2. Navigate to the Project Directory
    ```bash
-    cd github-cicd-template
+    cd aws-ngfw-security-automations
    ```
 
 ### 🔧 Environment Setup
@@ -58,24 +58,23 @@ Setting up a Python virtual environment ensures that dependencies are managed ef
 3. **Upgrade pip**
 
    ```bash
-   pip install --upgrade pip
+   python -m pip install --upgrade pip
    ```
 
 4. **Install Dependencies**
 
+   - Using Poetry:
+
    ```bash
-   pip install -r requirements.txt
    pip install poetry
    poetry lock
    poetry install
    ```
 
-   - Deactivate the Virtual Environment
-
-   When you're done, deactivate the environment:
+   - Using Requirements:
 
    ```bash
-    deactivate
+   pip install -r requirements.txt
    ```
 
 ### 🛸 Pre-Commit Hooks
