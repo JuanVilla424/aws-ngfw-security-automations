@@ -1,4 +1,4 @@
-# 📄 AWS NGFW Security Automations
+# 🚧 AWS NGFW Security Automations
 
 ![AWS CloudFormation](https://img.shields.io/badge/AWS-CloudFormation-blue)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff)
@@ -64,9 +64,6 @@ Welcome to the **AWS NGFW Security Automations** repository! This project offers
 
   - Provides detailed guides and support resources to assist with deployment and management.
 
-- **User-Friendly Configuration Interface**
-  - Offers an intuitive interface for configuring and managing your VPC and firewall settings.
-
 ## 🖼️ Architecture Diagram
 
 ![Diagram](https://github.com/JuanVilla424/aws-ngfw-security-automations/blob/dev/source/image/architecture_diagram.png?raw=true)
@@ -79,7 +76,7 @@ This project consists of microservices that facilitate the functional areas of t
 |-deployment/ [folder containing templates and build scripts]
 |-source/
   |-image/                  [folder containing images of the solution such as architecture diagram]
-  |-layout/                 [folder containing base diagram editable layout]
+  |-layout/                 [folder containing base diagram of the solution such as editable layout architecture diagram]
 ```
 
 ## 📫 Contact
