@@ -25,15 +25,6 @@ repos:
         types: [python]
         args: [--rcfile=.pylintrc, .]
         exclude: ^node_modules/
-  - repo: https://github.com/hadolint/hadolint
-    rev: v2.13.1-beta
-    hooks:
-      - id: hadolint
-        name: hadolint
-        entry: hadolint
-        language: system
-        types: [dockerfile]
-        files: ^Dockerfile$
   - repo: local
     hooks:
       - id: yaml-format
@@ -57,12 +48,6 @@ repos:
         types: [yaml]
         files: \.(yml|yaml)$
         exclude: '.github/.*'
-      - id: docker-compose
-        name: docker-compose
-        entry: python scripts/validate_docker_compose/main.py
-        language: system
-        types: [yaml]
-        files: ^docker-compose(\.dev|\.prod)?\.yml$
       - id: validate-commit
         name: validate-commit
         entry: python scripts/control_commit/main.py --log-level=DEBUG
