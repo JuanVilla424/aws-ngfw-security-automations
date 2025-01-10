@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-Development-blue.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-Welcome to the **AWS NGFW Security Automations** repository! This project provides a robust and flexible CI/CD pipeline setup using GitHub Actions, tailored for project using Python for backend, node frontend, docker-compose or Dockerfile. Leverage this template to automate your development workflow, from testing and building to deployment and monitoring.
+Welcome to the **AWS NGFW Security Automations** repository! This project offers a comprehensive and automated solution for deploying Virtual Private Clouds (VPCs) with integrated network firewalls on AWS on non AWS Organization member accounts. Designed to streamline the setup and management of secure network infrastructures, this template leverages Infrastructure as Code (IaC) tools to ensure consistency, scalability, and ease of maintenance.
 
 ## 📚 Table of Contents
 
@@ -20,11 +20,52 @@ Welcome to the **AWS NGFW Security Automations** repository! This project provid
 
 ## 🌟 Features
 
-- **Automated Testing:** Run tests automatically on each push and pull request.
-- **Continuous Deployment:** Deploy your application seamlessly to your chosen platform.
-- **Code Quality Checks:** Enforce coding standards with linting and formatting tools.
-- **Build Optimization:** Optimize build processes for faster deployment cycles.
-- **Notifications:** Receive updates and alerts on pipeline status via email or chat integrations.
+- **Automated VPC Creation**
+
+  - Streamlines the setup of Virtual Private Clouds with minimal manual intervention.
+
+- **Integrated Network Firewall**
+
+  - Deploys advanced network firewalls to secure your infrastructure from threats.
+
+- **Customizable Subnets and Routing**
+
+  - Configure public and private subnets, routing tables, and gateways tailored to your requirements.
+
+- **Predefined Security Policies**
+
+  - Includes default security rules and policies that can be customized to meet specific security needs.
+
+- **Infrastructure as Code (IaC) Support**
+
+  - Utilizes tools like Terraform or CloudFormation for reproducible and version-controlled deployments.
+
+- **Scalability and Flexibility**
+
+  - Easily scales to accommodate growing network demands and adapts to varying infrastructure needs.
+
+- **Monitoring and Logging**
+
+  - Integrates with monitoring tools and provides detailed logs for network traffic and firewall activities.
+
+- **High Availability and Redundancy**
+
+  - Ensures reliable network operations with redundant configurations and failover mechanisms.
+
+- **Easy Integration with Existing Systems**
+
+  - Seamlessly connects with existing cloud resources and on-premises infrastructure.
+
+- **Security Best Practices**
+
+  - Implements industry-standard security measures to ensure robust protection of your network.
+
+- **Comprehensive Documentation and Support**
+
+  - Provides detailed guides and support resources to assist with deployment and management.
+
+- **User-Friendly Configuration Interface**
+  - Offers an intuitive interface for configuring and managing your VPC and firewall settings.
 
 ## 🖼️ Architecture Diagram
 
@@ -38,6 +79,7 @@ This project consists of microservices that facilitate the functional areas of t
 |-deployment/ [folder containing templates and build scripts]
 |-source/
   |-image/                  [folder containing images of the solution such as architecture diagram]
+  |-layout/                 [folder containing base diagram editable layout]
 ```
 
 ## 📫 Contact
